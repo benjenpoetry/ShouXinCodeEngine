@@ -1,5 +1,6 @@
-import { defineUserConfig } from 'vuepress';
+import { defaultTheme, defineUserConfig } from 'vuepress';
 
 export default defineUserConfig({
-    base: '/ShowXinCodeEngine/'
+    base: '/ShowXinCodeEngine/',
+    theme: defaultTheme()
 });
