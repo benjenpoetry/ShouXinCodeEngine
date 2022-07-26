@@ -1,16 +1,15 @@
 {
-  "name": "shouxincodeengine",
+  "name": "ShouXinCodeEngine",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "https://github.com/benjenpoetry/ShouXinCodeEngine.git",
+  "author": "Benjen Yang",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^2.0.0-beta.49"
   }
 }
