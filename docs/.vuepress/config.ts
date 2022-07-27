@@ -1,6 +1,12 @@
-import { defaultTheme, defineUserConfig } from 'vuepress';
+import { defineUserConfig, viteBundler } from 'vuepress';
 
 export default defineUserConfig({
     base: '/ShowXinCodeEngine/',
-    theme: defaultTheme()
+    bundler: viteBundler({
+        viteOptions: {
+            build: {
+                assetsDir: './assets'
+            }
+        }
+    })
 });
